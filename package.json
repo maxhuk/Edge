@@ -1,6 +1,6 @@
 {
-    "name": "edge",
-    "description": "A Ghost theme",
+    "name": "edge-maxhuk",
+    "description": "A Ghost theme customized for blog.maxhuk.com",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=3.0.0",
@@ -54,6 +54,8 @@
         "gulp-stylelint": "^13.0.0",
         "gulp-uglify": "3.0.2",
         "gulp-zip": "5.0.2",
+        "postcss": "8.1.4",
+        "postcss-color-mod-function": "3.0.3",
         "postcss-easy-import": "3.0.0",
         "pump": "3.0.0",
         "stylelint": "^13.7.1",

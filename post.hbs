@@ -10,6 +10,7 @@
                 {{#if custom_excerpt}}
                     <div class="post-excerpt container medium">{{custom_excerpt}}</div>
                 {{/if}}
+                {{!--
                 {{#if feature_image}}
                     <div class="post-media container large">
                         <img class="post-image" srcset="{{> srcset}}"
@@ -18,9 +19,15 @@
                             alt="{{title}}">
                     </div>
                 {{/if}}
+                --}}
                 <div class="post-content kg-canvas u-text-format">
                     {{content}}
                 </div>
+
+                {{!-- Email subscribe form at the bottom of the page --}}
+                {{#if @labs.members}}
+                    {{> subscribe-form}}
+                {{/if}}
             </article>
         {{/post}}
         {{> related}}
