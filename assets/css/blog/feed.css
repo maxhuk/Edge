@@ -9,7 +9,7 @@
 }
 
 .post-feed .grid-item {
-    width: 330px;
+    width: calc(100% / 2);
 }
 
 .post-feed .post {
@@ -19,24 +19,4 @@
 
 .post-feed .post-image {
     width: 100%;
-}
-
-@media (max-width: 1019px) {
-    .post-feed {
-        margin: -5px;
-    }
-
-    .post-feed .grid-item {
-        width: calc(100% / 3);
-    }
-
-    .post-feed .post {
-        margin: 5px;
-    }
-}
-
-@media (max-width: 640px) {
-    .post-feed .grid-item {
-        width: calc(100% / 2);
-    }
 }
