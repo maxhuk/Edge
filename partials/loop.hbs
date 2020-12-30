@@ -8,9 +8,17 @@
         <a class="post-lightbox" href="{{img_url feature_image}}">
             <i class="icon icon-arrow-expand"></i>
         </a>
+        <span class="post-caption-grid">
+            {{title}}</br>by {{#primary_author}}{{name}}{{/primary_author}}
+        </span>
         <figcaption class="post-caption">
             <h2 class="post-caption-title">{{title}}</h2>
             <div class="post-caption-meta">
+                {{#primary_author}}
+                    <span class="post-caption-meta-item post-caption-meta-tag">
+                      {{name}}
+                    </span>
+                {{/primary_author}}
                 {{#primary_tag}}
                     <span class="post-caption-meta-item post-caption-meta-tag">
                         <a href="{{url}}">{{name}}</a>
@@ -21,7 +29,7 @@
                         datetime="{{date format="YYYY-MM-DD"}}">{{date published_at}}</time>
                 </span>
                 <span class="post-caption-meta-item post-caption-meta-link">
-                    <a href="{{url}}">View project</a>
+                    <a href="{{url}}">View</a>
                 </span>
             </div>
         </figcaption>
