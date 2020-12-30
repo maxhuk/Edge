@@ -1,5 +1,5 @@
 .post-feed {
-    margin: -15px;
+    margin: -5px;
     opacity: 0;
     transition: opacity 0.3s var(--animation-base);
 }
@@ -14,7 +14,7 @@
 
 .post-feed .post {
     position: relative;
-    margin: 15px;
+    margin: 5px;
 }
 
 .post-feed .post-image {
