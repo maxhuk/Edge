@@ -17,6 +17,11 @@
     margin: 5px;
 }
 
+.post-feed .post-link {
+  background-color: var(--black-color);
+}
+
 .post-feed .post-image {
     width: 100%;
+    opacity: 0.95;
 }
