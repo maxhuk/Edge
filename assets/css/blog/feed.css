@@ -18,10 +18,15 @@
 }
 
 .post-feed .post-link {
-  background-color: var(--black-color);
+    background: linear-gradient(var(--white-color), var(--light-gray-color));
 }
 
 .post-feed .post-image {
     width: 100%;
-    opacity: 0.95;
+    mix-blend-mode: multiply;
+}
+
+.post-link:hover + .post-image,
+.post-image:hover {
+    mix-blend-mode: normal;
 }
