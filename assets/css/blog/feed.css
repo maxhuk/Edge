@@ -9,7 +9,7 @@
 }
 
 .post-feed .grid-item {
-    width: calc(100% / 2);
+    width: 100%;
 }
 
 .post-feed .post {
